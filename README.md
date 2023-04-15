@@ -14,6 +14,6 @@ Users should be able to:
 	- The `input` field is empty. The message for this error should say *"Whoops! It looks like you forgot to add your email"*
 	- The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say *"Please provide a valid email address"*
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here](https://github.com/Eve-Wangari/Ping-coming-soon)
+- Live Site URL: [Add live site URL here](https://extraordinary-chimera-732167.netlify.app/)
 
