@@ -1,0 +1,85 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+*{
+    font-family: 'Libre Franklin', sans-serif;
+    margin: 0;
+    padding:0;
+}
+body{
+    min-height: 110vh;
+    position: relative;
+}
+main{
+    width:80vw;
+    margin:2em auto;
+    text-align: center;
+}
+h1{
+    color: hsl(0, 0%, 59%);
+    font-weight: 300;
+    margin:0.5em;
+}
+span{
+    color:black;
+    font-weight: 700;
+}
+input,
+button{
+    border-radius: 3em;
+    padding:1em 2em;
+    outline: none;
+    border: 1px solid hsl(223,100%,88%);
+}
+button{
+    background-color:hsl(223,87%,63%);
+    color:white;
+    border:none;
+    margin: 1rem;
+   
+}
+button:hover{
+    background-color: hsla(223,87%,63%,0.7);
+    cursor: pointer;
+}
+form{
+    margin:2em;
+}
+
+main .image{
+    width:60%;
+}
+.error{
+    color:hsl(354, 100%, 66%);
+    margin:0.5em;
+}
+.add{
+    border:1px solid hsl(354, 100%, 66%)
+}
+i{
+    color: hsl(223,87%,63%);
+    padding: 1em;
+}
+i:hover{
+    color:white;
+    background-color: hsl(223,87%,63%);
+    border-radius: 50%;
+    cursor: pointer;
+}
+footer {
+    position: absolute;
+    bottom:0;
+    left:50%;
+    transform: translateX(-50%);
+}
+@media (max-width:768px) {
+    button{
+       width: 16em;
+    }
+    main .image{
+        width:70%;
+    }
+    h1{
+        font-size: 1.5em;
+    }
+    
+}
